@@ -1,0 +1,1 @@
+python main.py --config absolute/path/to/your_config.yaml --override experiment.output_dir=exp_res/your_experiment_name student.number=4 batch.size=1 rules.max_pos_rules=30 rules.max_neg_rules=30

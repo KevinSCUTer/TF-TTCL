@@ -1,0 +1,46 @@
+{
+    "open": {
+        "agriculture": {
+            "file": "agriculture-qa_random_5k.json",
+            "domain": "agriculture"
+        },
+        "alpaca": {
+            "file": "alpaca_gpt4_en_random_5k.json",
+            "domain": "general"
+        },
+        "dolly": {
+            "file": "dolly_qa_random_5k.json",
+            "domain": "general"
+        },
+        "medicine": {
+            "file": "GenMedGPT_random_5k.json",
+            "domain": "medicine"
+        },
+        "geosignal": {
+            "file": "geosignal_qa_random_5k.json",
+            "domain": "geosignal"
+        },
+        "wild": {
+            "file": "instructions_wild_random_5k.json",
+            "domain": "general"
+        },
+        "wealth": {
+            "file": "wealth-alpaca_lora_random_5k.json",
+            "domain": "wealth"
+        }
+    },
+    "close": {
+        "gsm8k": {
+            "file": "gsm8k_closed_5k.json",
+            "domain": "math"
+        },
+        "metamath": {
+            "file": "MetaMathQA_closed_5k.json",
+            "domain": "math"
+        },
+        "logiqa": {
+            "file": "logiqa_random_5k.json",
+            "domain": "logic"
+        }
+    }
+}

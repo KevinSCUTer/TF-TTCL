@@ -1,0 +1,68 @@
+{
+  "math_500": {
+    "5": {
+      "correct_answer": "Evelyn",
+      "reason": "manual_verified_sample_math500"
+    },
+    "100": {
+      "correct_answer": "\\begin{pmatrix} \\frac{5}{3} \\ \\frac{2}{3} \\ -\\frac{1}{3} \\end{pmatrix}",
+      "reason": "manual_verified_sample_math500"
+    },
+    "147": {
+      "correct_answer": "3",
+      "reason": "manual_verified_sample_math500"
+    },
+    "199": {
+      "correct_answer": "10080",
+      "reason": "manual_verified_sample_math500"
+    },
+    "228": {
+      "correct_answer": "(C)s",
+      "reason": "manual_verified_sample_math500"
+    },
+    "256": {
+      "correct_answer": "(E)",
+      "reason": "manual_verified_sample_math500"
+    },
+    "258": {
+      "correct_answer": "864",
+      "reason": "manual_verified_sample_math500"
+    },
+    "294": {
+      "correct_answer": "\\left(\\frac{3}{5}, \\frac{8}{3}\\right)",
+      "reason": "manual_verified_sample_math500"
+    },
+    "327": {
+      "correct_answer": "0.0897",
+      "reason": "manual_verified_sample_math500"
+    },
+    "348": {
+      "correct_answer": "$6r^2 - 4r - 24$",
+      "reason": "manual_verified_sample_math500"
+    },
+    "365": {
+      "correct_answer": "(1, -16, -4, 39)",
+      "reason": "manual_verified_sample_math500"
+    },
+    "384": {
+      "correct_answer": "[-2, 7]",
+      "reason": "manual_verified_sample_math500"
+    },
+    "419": {
+      "correct_answer": "$2\\sqrt{5}$",
+      "reason": "manual_verified_sample_math500"
+    },
+    "421": {
+      "correct_answer": "\\begin{pmatrix} \\frac{16}{49} \\ \\frac{48}{49} \\ \\frac{24}{49} \\end{pmatrix}",
+      "reason": "manual_verified_sample_math500"
+    },
+    "473": {
+      "correct_answer": "$137\\frac{1}{2}$",
+      "reason": "manual_verified_sample_math500"
+    },
+    "497": {
+      "correct_answer": "\\dfrac{65}{169}",
+      "reason": "manual_verified_sample_math500"
+    }
+  }
+}

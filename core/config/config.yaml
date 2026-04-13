@@ -1,0 +1,65 @@
+experiment:
+  data_path: "data/MATH/gsm8k.json"
+  limit: 10
+  input_order: "forward"  # forward / reverse / random could modify the order of the input data, but the evaluate folder only supports forward order.
+  shuffle_seed: 0    # only effective in random mode
+  mode: "close"
+  domain: "math"
+
+prompt_file_path:
+  teacher: "core/source/prompts/close/role/math/teacher/gsm.md"
+  ta: "core/source/prompts/close/role/math/ta/simple_rephrase.md"
+  student: "core/source/prompts/close/role/math/student/gsm.md"
+  positive_batch: "core/source/prompts/close/rule/positive/batch_extract.md"
+  negative_batch: "core/source/prompts/close/rule/negative/batch_extract.md"
+
+llm:
+  api_url: "your-openai-compatible-url/v1"
+  api_key: "your_api_key"
+  model_name: "your_model_name"
+  max_tokens: 8192
+  max_context_tokens: 32768
+
+rag:
+  enabled: true
+  embedding_api_url: "your-embedding-url/v1"
+  embedding_api_key: "your_embedding_api_key"
+  embedding_model: "your_embedding_model_name"
+
+rules:
+  max_pos_rules: 3
+  max_neg_rules: 3
+
+student:
+  number: 4
+
+batch:
+  enabled: false
+  size: 1
+
+debug:
+  save_variants: true
+  log_prompts: true
+  quiet: false
+
+security:
+  log_expected_output: false
+  write_labels_to_result: false
+  write_private_labels_file: false
+
+ablation:
+  remove_ta: false
+  remove_qsa: false
+  remove_ced: false
+  remove_crr: false
+  random_rules: false
+  use_max_ppl_for_negative_selection: false
+
+pruning:
+  enabled: false
+  max_repo_size: 100
+  strategy: ""
+  similarity_threshold: 0.95
+
+confuse_mode:
+  enabled: false
